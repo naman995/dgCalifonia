@@ -930,7 +930,7 @@ body {
 }
 .btn.btn-brand-1 {
   padding: 9px 20px;
-  color: #041C2F;
+  color: #43B02A;
   background: #FEC201;
   border-radius: 0px;
   font-size: 14px;
@@ -938,16 +938,16 @@ body {
   font-weight: 500;
 }
 .btn.btn-brand-1 svg {
-  color: #041C2F;
+  color: #43B02A;
   height: 20px;
   margin-right: 8px;
 }
 .btn.btn-brand-1:hover {
   background-color: #034460;
-  color: #fff;
+  color: #43B02A;
 }
 .btn.btn-brand-1:hover * {
-  color: #fff;
+  color: #43B02A;
 }
 .btn.btn-brand-1-big {
   padding: 18px 40px;
@@ -982,10 +982,10 @@ body {
 
 .btn.btn-brand-1-big:hover {
   background-color: #034460;
-  color: #fff;
+  /* color: #fff; */
 }
 .btn.btn-brand-1-big:hover * {
-  color: #fff;
+  /* color: #fff; */
 }
 .btn.btn-brand-2 {
   font-size: 15px;
