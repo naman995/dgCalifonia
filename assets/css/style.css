@@ -177,7 +177,7 @@ table {
 }
 
 img {
-  max-width: 100%;
+  max-width: 38%;
 }
 
 input,
@@ -3234,7 +3234,7 @@ iframe {
   height: 20px;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  top: 8px;
+  top: 24px;
   right: 0px;
   z-index: 1004;
 }
