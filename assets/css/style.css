@@ -177,7 +177,7 @@ table {
 }
 
 img {
-  max-width: 38%;
+  max-width: 100%;
 }
 
 input,
@@ -601,6 +601,7 @@ a:hover {
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
 .hover-up:hover {
+  color:#FEC201 !important;
   transform: translateY(-2px);
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
@@ -8147,4 +8148,7 @@ span.bold-para {
     width: 48% !important;
     max-width: 48% !important;
 }
+}
+h{
+  color:#FFE799 !important
 }
