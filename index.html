@@ -20,6 +20,22 @@
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
   <link href="assets/css/style.css" rel="stylesheet" />
   <link rel="icon" href="./assets/imgs/dgmLogo.png" type="image/png">
+  <style>
+    .card-offer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .card-info {
+      flex-grow: 1;
+    }
+
+    .box-button-offer {
+      margin-top: auto;
+    }
+  </style>
   <script src="./assets/js/form.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script type="text/javascript">
@@ -186,7 +202,7 @@
                 </li>
                 <li><a style="color:#43B02A !important" href="./contact.html">Get a Quote</a></li>
                 <li class="has-children">
-                  <a style="color:#43B02A !important" href="#">Training</a>
+                  <a style="color:#43B02A !important" href="#">E-Learning</a>
                   <ul class="sub-menu">
                     <li><a style="color:#43B02A !important"
                         href="https://dgm-usa.com/dgm-training-courses/">Platform</a></li>
@@ -194,7 +210,7 @@
                     <li><a style="color:#43B02A !important" href="./shop.html">Shop</a></li>
                   </ul>
                 </li>
-                <li><a style="color:#43B02A !important" href="./faq.html">FAQ's</a></li>
+                <li><a style="color:#43B02A !important" href="./faq.html">FAQ</a></li>
               </ul>
             </nav>
             <div class="burger-icon burger-icon-white">
@@ -328,17 +344,12 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="banner-1" style="
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./assets/imgs/homepage/regulatory\ complience.png);
+                    background-image: url(./assets/imgs/homepage/regulatory\ complience.png);
                   ">
                 <div class="container">
                   <div class="row align-items-center">
                     <div class="col-lg-12">
-                      <p class="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                        Regulatory Compliance
-                      </p>
-                      <h1 class="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                        Hazardous Materials <br class="d-none d-lg-block" />and Dangerous Goods Services
-                      </h1>
+
                       <div class="row">
                         <div class="col-lg-6">
                           <p class="font-md color-white mb-20 wow animate__animated animate__fadeInUp"
@@ -350,11 +361,7 @@
                           </p>
                         </div>
                       </div>
-                      <div class="box-button">
-                        <a class="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp"
-                          href="./contact.html">Contact us</a>
 
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -490,7 +497,6 @@
                       <div class="box-button">
                         <a class="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp"
                           href="./contact.html">Contact us</a>
-
                       </div>
                     </div>
                   </div>
@@ -542,30 +548,20 @@
     </div>
     <section class="section mt-100">
       <div class="container">
-        <h2 class="title-favicon mb-20 wow animate__animated animate__fadeIn">
+        <h2 class="mb-20 wow animate__animated animate__fadeIn">
           What We Offer
         </h2>
         <div class="row align-items-end">
           <div class="col-lg-8 col-md-8 mb-30">
             <p class="font-md color-gray-700 wow animate__animated animate__fadeIn">
-              Your One Stop Shop for Dangerous Goods Packaging, Shipping &
-              Order Fulfillment
+              Your One Stop Shop for Dangerous Goods Packaging, Shipping & Order Fulfillment
             </p>
           </div>
-         <!-- <div class="col-lg-4 col-md-4 mb-30 text-md-end text-start">
-    <a style=" display: inline-flex; align-items: center;" class="btn btn-brand-1 hover-up " href="./contact.html">
-        <svg style="color:#034460; margin-right: 8px;" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"></path>
-        </svg>
-        <p style="color:#034460 !important; margin: 0;">Contact us</p>
-    </a>f
-</div> -->
-
         </div>
         <div class="mt-20 box-background-offer">
           <div class="bg-under"></div>
           <div class="row">
-            <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+            <div class="col-lg-6 col-md-6 mb-30 wow animate__animated animate__fadeIn">
               <div class="card-offer hover-up">
                 <div class="card-image">
                   <img src="./assets/imgs/homepage/dangerous-icon.png" alt="transp" />
@@ -588,7 +584,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+            <div class="col-lg-6 col-md-6 mb-30 wow animate__animated animate__fadeIn">
               <div class="card-offer hover-up">
                 <div class="card-image">
                   <img src="./assets/imgs/lithium battery.png" alt="transp" />
@@ -612,14 +608,38 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+            <div class="col-lg-6 col-md-6 mb-30 wow animate__animated animate__fadeIn">
+              <div class="card-offer hover-up">
+                <div class="card-image">
+                  <img src="./assets/imgs/lithium battery.png" alt="transp" />
+                </div>
+                <div class="card-info">
+                  <h5 class="color-brand-2 mb-15">Lithium Batteries</h5>
+                  <p class="font-sm color-grey-900 mb-35">
+                    Lithium batteries are lightweight, high-energy storage devices used in electronics, requiring
+                    careful handling due to safety risks. Explore our collection of services catered specifically for
+                    Lithium Ion and Lithium Metal services and equipment containing such batteries.
+                  </p>
+                  <div class="box-button-offer mb-30">
+                    <a class="btn btn-link font-sm color-brand-2" href="./lithium-batteries-documentation.html">View
+                      Details<span>
+                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-30 wow animate__animated animate__fadeIn">
               <div class="card-offer hover-up">
                 <div class="card-image">
                   <img src="https://jthemes.net/themes/html/transp/assets/imgs/page/homepage1/delivery.png"
                     alt="transp" />
                 </div>
                 <div class="card-info">
-                  <h5 class="color-brand-2 mb-15">Order Fulfillment </h5>
+                  <h5 class="color-brand-2 mb-15">Order Fulfillment</h5>
                   <p class="font-sm color-grey-900 mb-35">
                     Explore our technology and operational capabilities for sourcing and distribution, warehousing and
                     order management services for all goods including, Dangerous Goods and Lithium Batteries, from the
@@ -665,16 +685,16 @@
 
                 </h6>
                 <!-- <p class="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                  Lorem ipsum dolor sit amet
-                </p> -->
+                    Lorem ipsum dolor sit amet
+                  </p> -->
               </div>
               <div class="col-lg-6 mb-30">
                 <h6 class="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
                   Free Quote
                 </h6>
                 <!-- <p class="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                  Lorem ipsum dolor sit amet
-                </p> -->
+                    Lorem ipsum dolor sit amet
+                  </p> -->
               </div>
             </div>
             <div class="mt-20">
@@ -686,122 +706,10 @@
       </div>
       <div class="box-image-touch"></div>
     </section>
-    <section class="section pt-85 bg-worldmap">
-      <div class="container">
-        <div class="text-center">
-          <img class="mb-15" src="https://jthemes.net/themes/html/transp/assets/imgs/template/icons/favicon.svg"
-            alt="transp" />
-          <h2 class="color-brand-2 mb-20 wow animate__animated animate__fadeIn">
-            How It Works
-          </h2>
-          <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">
-            A simplified process with end-to-end coverage of shipping Dangerous Goods ensures that you don’t have to
-            worry about any aspect of compliance.
-            We take full charge of your regulated goods movement from your door to your customer’s door.
-          </p>
-        </div>
-        <div class="row mt-50">
-          <div class="col-lg-6 mb-30">
-            <div class="box-image-how">
-              <img class="w-100 wow animate__animated animate__fadeIn"
-                src="https://jthemes.net/themes/html/transp/assets/imgs/page/homepage1/how-it-work.png" alt="transp" />
-              <div class="box-info-bottom-img">
-                <div class="image-play">
-                  <img class="mb-15 wow animate__animated animate__fadeIn"
-                    src="https://jthemes.net/themes/html/transp/assets/imgs/template/icons/play.svg" alt="transp" />
-                </div>
-                <div class="info-play">
-                  <h4 class="color-white mb-15 wow animate__animated animate__fadeIn">
-                    US DOT, IATA and IMO
-                  </h4>
-                  <p class="font-sm color-white wow animate__animated animate__fadeIn">
-                    Compliance requirements vary and evolve every year. Trust the authority in Dangerous Goods
-                    regulations from pickup to delivery.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-30">
-            <ul class="list-how-works">
-              <li>
-                <div class="image-how">
-                  <span class="img"><img class="" style="height: 60%; width:60%; margin-left:12px"
-                      src="./assets/imgs/homepage/MSDS-Review.png" alt="transp" /></span>
-                </div>
-                <div class="info-how">
-                  <h5 class="color-brand-2 wow animate__animated animate__fadeIn">
-                    MSDS Review
-                  </h5>
-                  <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                    Contact us with details about your cargo including Safety Data Sheet
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div class="image-how">
-                  <span class="img"><img style="height: 60%; width:60%; margin-left:8px"
-                      src="./assets/imgs/homepage/quote.png" alt="transp" /></span>
-                </div>
-                <div class="info-how">
-                  <h5 class="color-brand-2 wow animate__animated animate__fadeIn">
-                    Quote
-                  </h5>
-                  <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                    We establish routing and prepare a Quote
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div class="image-how">
-                  <span class="img"><img style="height: 60%; width:60%; margin-left:8px"
-                      src="./assets/imgs/homepage/prepare.png" alt="transp" /></span>
-                </div>
-                <div class="info-how">
-                  <h5 class="color-brand-2 wow animate__animated animate__fadeIn">
-                    Prepare
-                  </h5>
-                  <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                    We pick the goods, pack them and prepare the shipper’s declaration.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div class="image-how">
-                  <span class="img"><img style="height: 60%; width:60%; margin-left:2px"
-                      src="./assets/imgs/homepage/ship.png" alt="transp" /></span>
-                </div>
-                <div class="info-how">
-                  <h5 class="color-brand-2 wow animate__animated animate__fadeIn">
-                    Ship
-                  </h5>
-                  <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                    We ship, provide you a tracking number and perform all customs’ clearances upon arrival
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div class="image-how">
-                  <span class="img"><img style="height: 60%; width:60%; margin-left:4px"
-                      src="./assets/imgs/homepage/pay.png" alt="transp" /></span>
-                </div>
-                <div class="info-how">
-                  <h5 class="color-brand-2 wow animate__animated animate__fadeIn">
-                    Pay
-                  </h5>
-                  <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                    You pay via Credit Card or per established credit terms.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section class="section mt-50 bg-customers-say">
       <div class="container">
-        <h2 class="title-favicon color-white mb-20 title-padding-left wow animate__animated animate__fadeIn">
+        <h2 class="color-white mb-20 title-padding-left wow animate__animated animate__fadeIn">
           What our customers are saying
         </h2>
         <!-- <p class="font-lg color-white pl-55 wow animate__animated animate__fadeIn">
@@ -941,11 +849,11 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="box-faqs-left">
-              <h2 class="title-favicon mb-20 wow animate__animated animate__fadeIn">
+              <h2 class="mb-20 wow animate__animated animate__fadeIn">
                 FAQs
               </h2>
               <p class="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">
-                Check out the Frequentyl Asked Questions about Dangerous Goods and our services
+                Check out the Frequently Asked Questions about Dangerous Goods and our services
               </p>
               <div class="box-gallery-faqs">
                 <div class="image-top">
@@ -1059,7 +967,7 @@
                 </div>
               </div>
               <div class="line-border mt-50 mb-50"></div>
-              <h3 class="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
+              <h3 class="color-brand-2 wow animate__animated animate__fadeIn">Need more help?</h3>
               <div class="mt-20"><a class="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn"
                   href="contact.html">Contact Us</a>
               </div>
@@ -1151,9 +1059,9 @@
           </div>
         </div>
         <div class="box-form-contact-leading">
-          <div class="row">
-            <div class="col-lg-8">
-              <h2 class="title-favicon color-brand-2 mb-15">
+          <div class="mx-4 row">
+            <div class="col-lg-6  ">
+              <h2 class="color-brand-2 mb-15">
                 Drop us a line!
               </h2>
               <p class="font-md color-grey-700 mb-25">
@@ -1209,7 +1117,7 @@
                 </div>
               </form>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <div class="box-image-contact">
                 <img src="https://jthemes.net/themes/html/transp/assets/imgs/page/homepage1/img-contact.png"
                   alt="transp" />
@@ -1230,9 +1138,8 @@
             <!-- <img class="mb-25 wow animate__animated animate__fadeIn" src="https://jthemes.net/themes/html/transp/assets/imgs/template/logo.svg" alt="transp"> -->
             <h3 style="font-size: 20px;">DGM California</h3>
             <a href="https://maps.app.goo.gl/jgHsh571SVoqEAm27" target="_blank">
-              <p class="color-grey-700 mb-25 wow animate__animated animate__fadeIn">11040
-                Bollinger Canyon Rd e 150, San
-                Ramon, CA 94582, USA</p>
+              <p class="color-grey-700 mb-25 wow animate__animated animate__fadeIn">26304 Corporate Avenue
+                Hayward, CA 94545</p>
             </a>
 
             <p class="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
@@ -1252,7 +1159,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round"
                     d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75">
                   </path>
-                </svg>For DG and Warehousing Services: SFO@dgmcalifornia.com
+                </svg>SFO@dgmcalifornia.com
               </a>
             </p>
 
