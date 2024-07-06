@@ -1,16 +1,24 @@
-.img-height{
-    height: 100%;
+.img-height {
+  height: 100%;
 }
-.astyle{
-    top: 39% !important;
-     content: "";
-    background: url(https://jthemes.net/themes/html/transp/assets/imgs/template/icons/arrow-down.svg) no-repeat center;
-    height: 8px;
-    width: 12px;
-    position: absolute;
-    top: 50%;
-    right: 0px;
+/* .astyle {
+  top: 39% !important;
+  content: "";
+  background: url(https://jthemes.net/themes/html/transp/assets/imgs/template/icons/arrow-down.svg)
+    no-repeat center;
+  height: 8px;
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+} */
+
+.btn-custom12 {
+  background-color: #034460; /* Custom background color */
+  color: #fff; /* Custom text color */
 }
-.header .main-menu li.has-children > a::after {
-   
+
+.btn-custom12:hover {
+  background-color: #022c3e; /* Custom hover background color */
+  color: #fff; /* Custom hover text color */
 }
