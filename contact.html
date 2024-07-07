@@ -340,88 +340,64 @@
 
     <section class="section">
       <div class="container position-relative">
-        <div class="box-cover-contactform">
-          <div class="row align-items-center">
-            <div class="col-xl-8 col-lg-7">
-              <div class="box-contactform-left">
-                <h3 class="color-brand-2 mb-15 wow animate__ animate__fadeIn animated"
-                  style="visibility: visible; animation-name: fadeIn;">Still have question?</h3>
-                <p class="font-md color-grey-900 mb-50 wow animate__ animate__fadeIn animated"
-                  style="visibility: visible; animation-name: fadeIn;">Can’t find the answer you are looking for? Please
-                  send a message to our friendly team.
-                </p>
-                <form method="post" action="form.php">
-                  <div class="row align-items-center">
-                    <div class="col-lg-12">
-                      <div class="form-group">
-                        <input type="text" placeholder="Enter Your Name" name="name" class="form-control" />
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-group">
-                        <input type="email" placeholder="Enter Your Email Address" name="email" class="form-control" />
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-group">
-                        <input type="tel" name="phone" placeholder="Enter Your Phone Number" class="form-control" />
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-group">
-                        <textarea rows="5" cols="10" name="message" class="form-control"
-                          placeholder="Enter Your Message Here"></textarea>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <!--<a class="btn btn-brand-1-big mr-25" href="#">-->
-                      <input type="submit" name="submit" name="submit" class="form-submit btn btn-brand-1-big mr-25"
-                        value="Submit" />
-                      <!--</a>-->
+        <div class="box-form-contact-leading">
+          <div class="mx-4 row">
+            <div class="col-lg-6  ">
+              <h2 class="color-brand-2 mb-15">
+                Drop us a line!
+              </h2>
+              <p class="font-md color-grey-700 mb-25">
+                Please fill up the form with all the details of your cargo and someone will contact you.
+              </p>
+              <form id="form" autocomplete="off" onsubmit="sendMail(event)">
+                <div class="row align-items-center">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Enter Your First Name" name="first_name" class="form-control" required />
                     </div>
                   </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-5 position-relative">
-              <div class="box-contactform-right">
-                <div class="map-info">
-                  <!-- <img class="mb-25 wow animate__animated animate__fadeIn" src="https://jthemes.net/themes/html/transp/assets/imgs/template/logo.svg" alt="transp"> -->
-                  <h3 style="font-size: 20px;">DGM California</h3>
-                  <a href="https://maps.app.goo.gl/jgHsh571SVoqEAm27" target="_blank">
-                    <p class="color-grey-700 mb-25 wow animate__animated animate__fadeIn">11040
-                      Bollinger Canyon Rd e 150, San
-                      Ramon, CA 94582, USA</p>
-                  </a>
-
-                  <p class="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
-                    <a href="tel:+18778190820">
-                      <svg class="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" stroke-width="1.5"
-                        viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Enter Your Last Name" name="last_name" class="form-control" required />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Enter Your Company Name" name="company" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="tel" name="phone" placeholder="Enter Your Phone Number" class="form-control" required />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="email" placeholder="Enter Your Email Address" name="email" class="form-control" required />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea rows="5" cols="10" name="message" class="form-control" placeholder="Enter Your Message Here"
+                        required></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <input type="submit" class="form-submit btn btn-brand-1-big mr-25" value="Submit" />
+                    <a class="btn btn-link-medium" href="contact.html">Contact Us
+                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
                         </path>
-                      </svg>Main: +1 (877) 819-0820
+                      </svg>
                     </a>
-                  </p>
-
-
-                  <p class="color-grey-700 mt-20 mb-10 wow animate__animated animate__fadeIn">
-                    <a href="mailto:SFO@dgmcalifornia.com">
-                      <svg class="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" stroke-width="1.5"
-                        viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75">
-                        </path>
-                      </svg>SFO@dgmcalifornia.com
-                    </a>
-                  </p>
-
-                  <div class="line-border  wow animate__animated animate__fadeIn"></div>
-                  <p class="color-grey-700 font-md-bold wow animate__animated animate__fadeIn">Hours: Monday - Friday
-                    8:00 am - 5.00pm PST
-                  </p>
+                  </div>
                 </div>
+              </form>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-image-contact">
+                <img src="https://jthemes.net/themes/html/transp/assets/imgs/page/homepage1/img-contact.png" alt="transp" />
               </div>
             </div>
           </div>
